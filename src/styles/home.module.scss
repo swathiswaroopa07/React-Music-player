@@ -1,0 +1,44 @@
+.home {
+    background: linear-gradient(to right, rgb(2,106,147), rgb(160,3,113),rgb(92,3,86));
+    color: white;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    padding: 0 1rem;
+
+    .header {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        height: 10vh;
+        justify-content: space-between;
+    }
+
+    .outline {
+        display: flex;
+        gap: 2rem;
+    }
+
+    button {
+        border: none;
+        border-radius: 5px;
+        padding: 0.5rem;
+        width: 100px;
+    }
+
+    .list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        overflow: hidden;
+        margin-top: 1rem;
+        margin: 0;
+        padding: 0;
+
+        img {
+            width: 10rem;
+        }
+    }
+}
